@@ -35,7 +35,7 @@ PAra a extração e junção dos arquivos, você pode fazer de forma manual ou e
 
 Antes de executar o script, primeiro organizei e extraí os arquivos Cnae, Simples, Município e Natureza, conforme mostro abaixo.
 
-![arquivos-para-processar]()
+![arquivos-para-processar](https://raw.githubusercontent.com/danbackeres/projeto_empresas_gov/main/img/arquivos-para-processar.png)
 
 Depois executei o script:
 
@@ -66,7 +66,7 @@ NOTA: você pode copiar e colar esse script no _PowerShell_ do Windows. E atente
 
 Depois de extrair e juntar os arquivos, deixei o diretório organizado assim:
 
-![arquivos-organizados]()
+![arquivos-organizados](https://raw.githubusercontent.com/danbackeres/projeto_empresas_gov/main/img/arquivos-organizados.png)
 
 ## Como Executar o Projeto
 
@@ -140,5 +140,9 @@ df_final.to_excel("estabelecimentos_filtrados.xlsx", index=False)
 ```
 
 ### Consideração Final
+
+O resultado:
+
+![resultado-final](https://raw.githubusercontent.com/danbackeres/projeto_empresas_gov/main/img/resultado.png)
 
 Obviamente esses arquivos poderiam ser exportados para uma base de dados e trabalhados lá da mesma forma, mas assim não teria graça, não é mesmo? 😊
